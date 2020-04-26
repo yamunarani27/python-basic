@@ -1,0 +1,37 @@
+#print stars
+n=int(input('no of rows'))
+print('*' * n)
+
+#print numbers:(1 /1 2/1 2 3)
+n=int(input('n:'))
+for i in range(0, n):
+    num=1
+    for j in range(0, i+1): 
+       print(num, end=" ")   
+       num = num + 1
+    print("\r")
+    
+#print numbers:(1 /2 3/4 5 6)
+n=int(input('n:'))
+num=1
+for i in range(0, n):
+    for j in range(0, i+1): 
+       print(num, end=" ")   
+       num = num + 1
+    print("\r")
+   
+#print numbers:(1 /1 1/1 1 1)
+n=int(input('n:'))
+num=1
+for i in range(0, n):
+    for j in range(0, i+1): 
+       print(num, end=" ")   
+    print("\r")
+    
+#print numbers:(1 /2 2/3 3 3)
+n=int(input('n:'))
+for i in range(0, n):
+    for j in range(0, i+1): 
+       print(i, end=" ")   
+    print("\r")
+

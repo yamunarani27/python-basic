@@ -1,0 +1,27 @@
+#program to display current time
+ import datetime
+ print(datetime.datetime.now())
+         or
+ print(time.localtime)
+
+#program to diaplay calendar of given month and year
+  import calendar
+  print(calendar.month(given year,given month)
+
+#program to print calendar of given year
+ import calendar
+ print (calendar.prcal(given year))
+ 
+#program to compute difference between two dates
+from datetime import date
+f_date = date(2014, 7, 2)
+l_date = date(2014, 7, 11)
+delta = l_date - f_date
+print(delta.days)
+
+#program to halt for a given time:sleep time
+ import time
+  for i in range (1,5):
+    print(i)
+  time.sleep(1)
+  

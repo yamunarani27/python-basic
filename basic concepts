@@ -1,0 +1,50 @@
+#simple swapping
+a,b=2,3
+b,a=a,b
+print(a)
+print(b)
+
+#string formatting
+x=10 
+printer=HP
+
+print("I just printed %s pages using %s printer"%(x,printer)
+
+print("I just printed {0} pages using {1} printer".format(x,printer))
+
+print(f"I just printed {x} pages using {printer} printer")
+
+#doc string, must be specified at the first line of function
+def func:
+   """ this is a doc string.
+       to access this we use the method in below line
+   """"
+   
+ func.__doc__
+ 
+ #reverse a string
+ string="hello"
+print(string[::-1])
+
+
+#print a sequence
+for i in range(1,6):
+ print(i)                  [1/ 2 /3]
+
+for i in range(1,6):
+ print(i,end="")            [12345]
+ 
+ for i in range(1,6):
+   print(i,sep="  ",end=" ")      [1 2 3 4 5]
+ 
+##program to diaplay extension of filename specified
+fname=input("enter filename:")
+lst=fname.split('.')
+print(lst[-1])
+
+#program to compute(n+nn+nnn)(4+44+444)
+a = int(input("Input an integer : "))
+n1 = int( "%s" % a )
+n2 = int( "%s%s" % (a,a) )
+n3 = int( "%s%s%s" % (a,a,a) )
+print (n1+n2+n3)
